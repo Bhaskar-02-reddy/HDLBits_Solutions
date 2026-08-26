@@ -4,6 +4,6 @@ module top_module(
     output out );
 
   
-    assign out=~(a^b);
-
+    assign out = ~(a ^ b);      // Xnor is an complent of xor
+ // The bitwise-XOR operator is ^. There is no logical-XOR operator.
 endmodule
