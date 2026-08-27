@@ -8,7 +8,8 @@ module top_module(
     output out_n   ); 
 
   
-    wire w1,w2,w3;
+    wire w1,w2,w3;   // decaration of the type 'wire' whic typically serves as interconnection 
+                        //     between multple blocks / modules .
     assign w1=a&b;
     assign w2=c&d;
     assign w3=w1|w2;
