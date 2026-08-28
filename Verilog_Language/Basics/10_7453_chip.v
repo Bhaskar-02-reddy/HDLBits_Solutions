@@ -12,8 +12,8 @@ module top_module (
 
 
     wire w1,w2,w3,w4;
-  
-    assign w1=(p1a & p1b & p1c);
+                                  // it follows Gate level data flow style of verilog code
+    assign w1=(p1a & p1b & p1c);   // for more deatailed visua view of '' REFER 7453 '' architecture design view online
     assign w2= p2a&p2b;
     assign w3 = p2c & p2d;
     assign w4 = p1f & p1d & p1e;
