@@ -5,9 +5,9 @@ module top_module(
     output out_or_logical,
     output [5:0] out_not
 );
-    assign out_or_bitwise = a | b;
-    assign out_or_logical = a || b;
-    assign out_not[5:3] = ~b;
-    assign out_not[2:0] = ~a;
+    assign out_or_bitwise = a | b;    // butwise or
+    assign out_or_logical = a || b;   // logical or
+    assign out_not[5:3] = ~b;     // inverter b for msb(most significant bit)
+    assign out_not[2:0] = ~a;     // inverter a for lsb(liest significant bit)
 
 endmodule
