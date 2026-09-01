@@ -9,9 +9,10 @@ module top_module(
     output out_or_logical,
     output [5:0] out_not
 );
-    assign out_or_bitwise = a | b;    // butwise or
-    assign out_or_logical = a || b;   // logical or
-    assign out_not[5:3] = ~b;     // inverter b for MSB(most significant bit)
-    assign out_not[2:0] = ~a;     // inverter a for LSB(liest significant bit)
+    assign out_or_bitwise = a | b;    // butwise " or " which generates a series of bits. 
+    assign out_or_logical = a || b;   // logical " or " one bit output.
+    assign out_not[5:3] = ~b;     // inverter b for MSB(most significant bit).
+    assign out_not[2:0] = ~a;     // inverter a for LSB(liest significant bit).
 
 endmodule
+
