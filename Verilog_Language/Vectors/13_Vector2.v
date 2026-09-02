@@ -1,7 +1,10 @@
 module top_module( 
     input [31:0] in,
     output [31:0] out );//
-    integer i;
+
+    // interchangeing the entire bit order 
+    // LSB -> MSB 
+    // MSB -> LSB
  
     assign out[31:24] = in[7:0];
     assign out[23:16] = in [15:8];
