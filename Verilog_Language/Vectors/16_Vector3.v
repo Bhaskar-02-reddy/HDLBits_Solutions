@@ -10,7 +10,7 @@ module top_module (
      THE ABOW ONE IS BIG BUT CLEAR STEP ,
   below one is one line concatination that sets automatically unless the siz'z is same */
 
-    assign {w,x,y,z } = {a,b,c,d,e,f,2'b11  };
+    assign {w,x,y,z } = { a, b, c, d, e, f, 2'b11  };
 
     /*
     Part selection was used to select portions of a vector. The concatenation operator 
