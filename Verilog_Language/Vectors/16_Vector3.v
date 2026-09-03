@@ -1,7 +1,7 @@
 module top_module (
     input [4:0] a, b, c, d, e, f,
     output [7:0] w, x, y, z );//
-    /*wire [31:0]tatal;
+    /*wire [31:0]tatal;      //THIS METHOD INTRODUCES AN TEMPROVARY VARIABLE THAT THREDS TO RESPECTVE OUTPUT PORTS
     //assign tatal = { a,b,c,d,e,f,2'b11};
     //assign w = tatal[31:24];
     //assign x = tatal[23:16];
