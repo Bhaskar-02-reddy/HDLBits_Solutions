@@ -12,4 +12,8 @@ module top_module (
 
     assign {w,x,y,z } = {a,b,c,d,e,f,2'b11  };
 
+    /*
+    Part selection was used to select portions of a vector. The concatenation operator 
+    {a,b,c} is used to create larger vectors by concatenating smaller portions of a vector together
+
 endmodule
