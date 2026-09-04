@@ -8,3 +8,7 @@ module top_module(
     assign{out[0],out[1],out[2],out[3],out[4],out[5],out[6],out[7]}= {in[7:0]} ;
 
 endmodule
+
+/* assign out[7:0] = in[0:7]; does not work because Verilog does not allow vector bit ordering to be flipped.
+The concatenation operator may save a bit of coding, allowing for 1 assign statement instead of 8 */
+
