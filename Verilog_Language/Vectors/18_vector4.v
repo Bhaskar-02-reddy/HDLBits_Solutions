@@ -4,7 +4,7 @@ module top_module (
   
     // assign out = { replicate-sign-bit , the-input };
     assign out  = { {24{in[7]}} , in };   // use case of concatination operation ( just like in python or c++)
-endmodule
+endmodule         //{num{vector}}
 
 /* The concatenation operator allowed concatenating together vectors to form a larger vector.
 But sometimes you want the same thing concatenated together many times,
