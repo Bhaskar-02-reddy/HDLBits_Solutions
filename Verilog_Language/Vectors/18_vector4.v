@@ -3,7 +3,7 @@ module top_module (
     output [31:0] out );//
   
     // assign out = { replicate-sign-bit , the-input };
-       assign out  = { {24{in[7]}} , in };
+    assign out  = { {24{in[7]}} , in };   // use case of concatination operation ( just like in python or c++)
 endmodule
 
 /* The concatenation operator allowed concatenating together vectors to form a larger vector.
