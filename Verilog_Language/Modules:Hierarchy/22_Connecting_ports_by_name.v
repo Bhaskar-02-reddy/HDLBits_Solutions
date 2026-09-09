@@ -11,5 +11,6 @@ module top_module (
     output out2
 );
     mod_a instance1( .in1(a), .in2(b), .in3(c), .in4(d), .out1(out1), .out2(out2)); 
-
+// Think off it like an bunch of wires connecting between two modules and the name of those wire 
+    // are .in1() , .in2()... we use .[dot] operator in module call or instatating .  
 endmodule
