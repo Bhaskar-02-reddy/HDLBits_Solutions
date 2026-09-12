@@ -1,4 +1,5 @@
-
+/* the add16 module performs 16-bit a + b + cin,
+while your module performs 32-bit a + b  */
 
 
 module top_module(
