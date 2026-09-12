@@ -1,6 +1,6 @@
 /* the add16 module performs 16-bit a + b + cin,
 while your module performs 32-bit a + b  */
-
+// ALSO REFFER THE SIGNAL FLOW IMG FOR EASY VISUALISATION
 
 module top_module(
     input [31:0] a,
