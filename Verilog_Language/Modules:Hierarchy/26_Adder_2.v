@@ -1,3 +1,8 @@
+/* top_module — Your top-level module that contains two of...
+add16, provided — A 16-bit adder module that is composed of 16 of...
+add1 — A 1-bit full adder module. */
+
+
 module top_module (
     input [31:0] a,
     input [31:0] b,
