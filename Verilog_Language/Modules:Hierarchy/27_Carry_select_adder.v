@@ -8,6 +8,9 @@ one assuming carry-in=0 and one assuming carry-in=1,
 then using a fast 2-to-1 multiplexer to select which result happened to be correct. */
 
 // SEE THE IMAGE FOR VISUAL SIGNAL FLOW 
+
+
+// RECOMMEND IF " SPEED " IS OUR PRIORITY OVER TREADING OFF WITH AREA 
 module top_module(
     input [31:0] a,
     input [31:0] b,
