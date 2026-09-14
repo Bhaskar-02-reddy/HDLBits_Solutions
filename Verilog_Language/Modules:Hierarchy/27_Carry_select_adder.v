@@ -7,7 +7,7 @@ The first-stage adder is the same as before, but we duplicate the second-stage a
 one assuming carry-in=0 and one assuming carry-in=1,
 then using a fast 2-to-1 multiplexer to select which result happened to be correct. */
 
-
+// SEE THE IMAGE FOR VISUAL SIGNAL FLOW 
 module top_module(
     input [31:0] a,
     input [31:0] b,
