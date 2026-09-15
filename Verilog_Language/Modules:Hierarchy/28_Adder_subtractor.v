@@ -16,5 +16,5 @@ module top_module(
     wire c1; // wire that connects( by providing carry) from one module of adder to another 
     add16 instance1( .a(a[15:0]), .b(b[15:0] ^ {16{sub}}),  .cin(sub), .cout(c1), .sum(sum[15:0]) );
     add16 instance2( .a(a[31:16]), .b(b[31:16] ^ {16{sub}}), .cin(c1), .cout(), .sum(sum[31:16])  );
-
+                                    // that ctually convers simple adders  to subtractors
 endmodule
