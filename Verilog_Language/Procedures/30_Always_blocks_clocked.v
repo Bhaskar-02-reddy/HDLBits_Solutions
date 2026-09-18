@@ -16,3 +16,9 @@ module top_module(
     always @(posedge clk) out_always_ff <= a^b;   //this produces an delayed op (<= non bocking is used)
 
 endmodule
+
+There are three types of assignments in Verilog:
+
+/* Continuous assignments (assign x = y;). Can only be used when not inside a procedure ("always block").
+Procedural blocking assignment: (x = y;). Can only be used inside a procedure.
+Procedural non-blocking assignment: (x <= y;). Can only be used inside a procedure. */
