@@ -1,4 +1,9 @@
 // synthesis verilog_input_version verilog_2001
+/* Clocked always blocks create a blob of combinational logic just like combinational always blocks,
+but also creates a set of flip-flops (or "registers") at the output of the blob of combinational logic.
+Instead of the outputs of the blob of logic being visible immediately,
+the outputs are visible only immediately after the next (posedge clk). */
+
 module top_module(
     input clk,
     input a,
