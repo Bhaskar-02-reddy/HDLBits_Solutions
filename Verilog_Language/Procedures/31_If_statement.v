@@ -1,4 +1,7 @@
 // synthesis verilog_input_version verilog_2001
+/* An if statement usually creates a 2-to-1 multiplexer,
+    selecting one input if the condition is true,
+    and the other input if the condition is false */
 module top_module(
     input a,
     input b,
