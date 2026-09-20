@@ -21,5 +21,5 @@ module top_module(
                     out_always = a;
                 end
         end
-
+    // assign out_always = (sel_b1 & sel_b2) b:a;  single iline multiplixer
 endmodule
