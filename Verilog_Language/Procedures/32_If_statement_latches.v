@@ -28,3 +28,7 @@ module top_module (
     end
 
 endmodule
+
+/* Syntactically-correct code does not necessarily result in a reasonable circuit (combinational logic + flip-flops).
+The usual reason is: "What happens in the cases other than those you specified?". 
+Verilog's answer is: Keep the outputs unchanged. */
