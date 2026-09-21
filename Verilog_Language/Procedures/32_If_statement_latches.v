@@ -1,4 +1,15 @@
 // synthesis verilog_input_version verilog_2001
+
+/* A common source of errors: How to avoid making latches
+When designing circuits, you must think first in terms of circuits:
+
+I want this logic gate
+I want a combinational blob of logic that has these inputs and produces these outputs
+I want a combinational blob of logic followed by a set of flip-flops
+What you must not do is write the code first, then hope it generates a proper circuit.
+
+If (cpu_overheated) then shut_off_computer = 1;
+If (~arrived) then keep_driving = ~gas_tank_empty; */
 module top_module (
     input      cpu_overheated,
     output reg shut_off_computer,
