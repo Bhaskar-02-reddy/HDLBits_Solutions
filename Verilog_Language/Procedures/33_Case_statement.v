@@ -1,3 +1,6 @@
+/* Case statements in Verilog are nearly equivalent to a sequence
+of if-elseif-else that compares one expression to a list of others. 
+Its syntax and functionality differs from the switch statement in C*/
 // synthesis verilog_input_version verilog_2001
 module top_module ( 
     input [2:0] sel, 
