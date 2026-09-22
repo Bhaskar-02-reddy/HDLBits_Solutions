@@ -25,3 +25,7 @@ module top_module (
     end
 
 endmodule
+
+/* The case statement begins with case and each "case item" ends with a colon. There is no "switch".
+Each case item can execute exactly one statement. This makes the "break" used in C unnecessary. But this means that if you need more than one statement, you must use begin ... end.
+Duplicate (and partially overlapping) case items are permitted. The first one that matches is used. C does not allow duplicate case items */
