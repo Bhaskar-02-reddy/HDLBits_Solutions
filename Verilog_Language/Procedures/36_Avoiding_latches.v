@@ -1,4 +1,10 @@
 // synthesis verilog_input_version verilog_2001
+/* Suppose you're building a circuit to process scancodes from a PS/2 keyboard for a game.
+Given the last two bytes of scancodes received, 
+you need to indicate whether one of the arrow keys on the keyboard have been pressed. 
+This involves a fairly simple mapping,
+which can be implemented as a case statement (or if-elseif) with four cases */
+
 module top_module (
     input [15:0] scancode,
     output reg left,
