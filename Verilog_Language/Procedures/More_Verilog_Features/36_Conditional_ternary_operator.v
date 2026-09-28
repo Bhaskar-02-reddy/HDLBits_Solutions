@@ -1,3 +1,7 @@
+/* Verilog has a ternary conditional operator ( ? : ) much like C:
+
+(condition ? if_true : if_false) */
+
 module top_module (
     input [7:0] a, b, c, d,
     output [7:0] min);//
