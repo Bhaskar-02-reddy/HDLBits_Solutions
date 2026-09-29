@@ -4,6 +4,6 @@ We will use "even" parity, where the parity bit is just the XOR of all 8 data bi
 module top_module (
     input [7:0] in,
     output parity); 
-    assign parity = ^in;
+    assign parity = ^ in; // XOR gate priority bit 
 
 endmodule
