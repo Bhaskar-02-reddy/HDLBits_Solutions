@@ -1,3 +1,5 @@
+// There are many full adders to instantiate. 
+// An instance array or generate statement would help here
 module top_module( 
     input [99:0] a, b,
     input cin,
@@ -6,7 +8,7 @@ module top_module(
     wire [100:0]carry;
     assign carry[0] = cin;
     genvar i ;
-    generate 
+    generate // used when we physically want n-copies of perticular hardware blocks (adders in this sol code)
         for(i=0; i<100; i=i+1)
 //assign cout[i] = carry[i+1]; 
             begin : adder    // under adder -> add1[0].fa 
