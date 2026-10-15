@@ -18,3 +18,16 @@ module top_module(
     assign out_anotb = a & ~b;
 
 endmodule
+
+//Implemented seven basic logic gates using Verilog continuous assignments:
+//AND, OR, XOR, NAND, NOR, XNOR, and AND-NOT. 
+//This demonstrates the use of bitwise operators to build combinational logic circuits.
+
+
+
+
+
+
+
+
+
