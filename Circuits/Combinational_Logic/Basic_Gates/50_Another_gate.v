@@ -5,3 +5,7 @@ module top_module (
     assign out = (in1 & (~in2) );
 
 endmodule
+
+//This Verilog code implements an AND gate with an inverted second input.
+//The output out is HIGH only when in1 = 1 and in2 = 0. 
+
