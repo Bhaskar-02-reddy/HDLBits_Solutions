@@ -13,6 +13,9 @@ module top_module(
                 end
             out = sum;
         end
-    
-
 endmodule
+
+//This Verilog code calculates the population count (number of 1s) in a 255-bit input vector using a for loop.
+//It initializes a counter to zero, checks each bit, and increments the counter for every bit that is 1. 
+//The final count is assigned to the 8-bit output out.
+    
