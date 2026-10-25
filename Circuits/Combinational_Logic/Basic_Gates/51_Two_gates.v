@@ -8,3 +8,7 @@ module top_module (
     assign out = w1 ^ in3 ;
 
 endmodule
+
+//This Verilog code implements a 3-input XNOR-XOR logic circuit.
+//First, w1 calculates the XNOR of in1 and in2, then XORs the result with in3 to produce out. 
+//The output is HIGH when an even number of the three inputs are 1
