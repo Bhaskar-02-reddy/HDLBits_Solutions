@@ -8,3 +8,7 @@ module top_module (
 
 
 endmodule
+
+//This Verilog code implements two independent 4-input NAND gates. 
+//Each output (p1y and p2y) is the negation of the AND operation of its four respective inputs, producing 0 only when all four inputs are 1; 
+//otherwise, the output is 1
