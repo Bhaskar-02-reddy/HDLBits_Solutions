@@ -13,3 +13,7 @@ module top_module(
     always @(*) out_alwaysblock = a & b;
 
 endmodule
+
+//This Verilog code implements a 2-input AND gate in two different ways:
+//using a continuous `assign` statement for `out_assign` and an `always @(*)` procedural block for `out_alwaysblock`.
+//Both outputs produce `1` only when both inputs `a` and `b` are `1`, demonstrating two equivalent methods of describing combinational logic.
