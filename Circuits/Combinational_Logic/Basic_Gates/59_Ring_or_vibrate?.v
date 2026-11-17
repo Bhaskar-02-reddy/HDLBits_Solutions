@@ -7,6 +7,8 @@ Try to use only assign statements,
 to see whether you can translate a problem description into a collection of logic gates. */
 
 
+// Hint : For this particular problem, one should be thinking "The motor is on when ___", rather than "If (vibrate mode) then ___".
+
 module top_module (
     input ring,
     input vibrate_mode,
