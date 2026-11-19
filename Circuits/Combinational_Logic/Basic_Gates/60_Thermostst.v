@@ -27,4 +27,4 @@ module top_module (
 endmodule
 
 /* HINT PROVOIDED : When designing circuits, one often has to think of the problem "backwards", 
-starting from the outputs then working backwards towards the inputs. See ringe_or_vibrate.
+starting from the outputs then working backwards towards the inputs. See 59_ringe_or_vibrate.
