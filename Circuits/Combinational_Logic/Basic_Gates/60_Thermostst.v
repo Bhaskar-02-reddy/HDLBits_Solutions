@@ -1,3 +1,4 @@
+
 /* A heating/cooling thermostat controls both a heater (during winter) and 
 an air conditioner (during summer). Implement a circuit that will turn on 
 and off the heater, air conditioning, and blower fan as appropriate. */
@@ -24,3 +25,6 @@ module top_module (
     assign fan = heater | aircon | fan_on;
 
 endmodule
+
+/* HINT PROVOIDED : When designing circuits, one often has to think of the problem "backwards", 
+starting from the outputs then working backwards towards the inputs. See ringe_or_vibrate.
